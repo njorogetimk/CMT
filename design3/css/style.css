@@ -1,0 +1,184 @@
+/* CSS variables */
+:root {
+  --white-background: white;
+  --border-color: rgb(0, 255, 255);
+  --welcome-background: rgba(0, 255, 255, 0.7);
+  --service-background: rgba(0, 255, 255, 0.3);
+  --sermon-background: rgba(0, 244, 244, 0.5);
+}
+/* global css */
+i {
+  vertical-align: bottom;
+}
+
+p i {
+  display: inline !important;
+}
+
+.btn {
+  text-transform: capitalize;
+  background: transparent;
+  border-radius: 5px;
+  color: inherit;
+  /* border: 1px solid inherit; */
+}
+
+li.disabled,
+a.disabled {
+  pointer-events: none;
+}
+
+.dark {
+  /* color: darkblue; */
+  color: rgb(3, 79, 229);
+}
+
+/* Nav bar css */
+nav {
+  background-color: white;
+  font-size: 1em;
+  color: black;
+  border-bottom: 3px solid var(--border-color);
+}
+
+nav ul li.active {
+  border-top: 2px solid var(--border-color);
+}
+
+nav ul a:hover {
+  border-top: 2px solid var(--border-color);
+}
+
+.nav-wrapper a {
+  color: black;
+}
+
+.brand-logo img {
+  z-index: 1;
+}
+
+section {
+  margin-bottom: 5px;
+}
+
+/* Welcome section */
+.welcome {
+  text-align: center;
+  padding: 2em 0;
+  background: var(--welcome-background);
+}
+
+.welcome .container .btn {
+  border: 1px solid black;
+}
+
+.welcome .btn:hover {
+  border: 1px solid transparent;
+  background: rgba(237, 16, 38, 0.4);
+}
+
+/* Services section */
+#services {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#services .m5 {
+  padding: 1em 0;
+  border-radius: 17px;
+  /* background-color: #D76720; */
+  background-color: var(--service-background);
+}
+
+/* sermons section */
+.sermons {
+  background-color: var(--sermon-background);
+}
+
+.sermons .container {
+  padding-top: 3em;
+}
+
+.sermons h3 {
+  margin: 0;
+}
+
+.sermons .sermon .col {
+  text-align: center;
+}
+
+.sermons p,
+.sermons a {
+  font-size: 1.2em;
+}
+
+.teachings a:hover {
+  border: 1px solid transparent;
+  background-color: #ccc;
+}
+
+/* Footer */
+.page-footer {
+  background: rgba(28, 28, 28, 1);
+  padding-top: 20px;
+}
+
+.page-footer .collection li {
+  background-color: inherit;
+}
+
+.page-footer a {
+  font-size: 1.1em;
+  /* color: lightblue; */
+}
+
+/* About Page */
+.about {
+  padding-top: 2em;
+  font-size: 1.1em;
+}
+
+.about p::first-letter {
+  font-weight: bold;
+  font-size: 1.18em;
+}
+
+/* Sermons page */
+
+.sort {
+  font-size: 1.4em;
+}
+
+.todate {
+  font-size: 1.2em;
+  background: var(--service-background);
+}
+
+/* Teaching */
+.teachings-page h1,
+.teachings-page h2,
+.teachings-page h3,
+.teachings-page h4,
+.teachings-page h5,
+.teachings-page h6 {
+  text-decoration: underline;
+}
+
+.teachings-page {
+  background: var(--service-background);
+}
+
+section.title {
+  margin-top: 0;
+  padding: 1em 0 0.5em 0;
+  background-color: var(--welcome-background);
+}
+
+/* Music page */
+.audios .albums {
+  font-size: 1.24em;
+}
+.videos {
+  background: var(--sermon-background);
+  padding: 1em 0 1px 0;
+}
