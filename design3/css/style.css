@@ -114,6 +114,16 @@ section {
   font-size: 1.2em;
 }
 
+.sermons .icon {
+  text-align: center;
+}
+
+i.mic {
+  font-size: 9rem;
+  background: white;
+  border-radius: 50%;
+}
+
 .teachings a:hover {
   border: 1px solid transparent;
   background-color: #ccc;
