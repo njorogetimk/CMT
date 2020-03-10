@@ -55,6 +55,8 @@ nav ul a:hover {
 
 .brand-logo img {
   z-index: 1;
+  border-radius: 50%;
+  margin-left: 4px;
 }
 
 section {
